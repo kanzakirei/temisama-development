@@ -5,9 +5,10 @@ set TO="C:\Users\kanza\OneDrive\Documents\Git\temisama"
 xcopy %FROM% %TO% /e /y
 
 pushd %TO%
-git add.
+git add .
 git commit -m "デプロイ"
 git push
 popd
 endlocal
+pause
 exit 0
