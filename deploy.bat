@@ -1,5 +1,10 @@
 @echo off
 setlocal
+
+setlocal
+call SSG.exe
+endlocal
+
 set FROM="C:\Users\kanza\OneDrive\Documents\Git\temisama-development\output"
 set TO="C:\Users\kanza\OneDrive\Documents\Git\temisama"
 xcopy %FROM% %TO% /e /y
