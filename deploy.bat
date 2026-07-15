@@ -15,5 +15,4 @@ git commit -m "デプロイ"
 git push
 popd
 endlocal
-pause
 exit 0
