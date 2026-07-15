@@ -498,6 +498,7 @@ summary::-webkit-details-marker {
   .topCharacter{
     margin-left: 80%;
     width: 100%;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 97%, rgba(0, 0, 0, 0) 100%);
   }
 
   /* トップメッセージ */
@@ -617,8 +618,6 @@ summary::-webkit-details-marker {
   .profile {
     max-width: 600px;
   }
-
-  .profilePanel {}
 
   .profilePanel img {
     object-fit: cover;
