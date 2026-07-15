@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: MOBOFont;
+  font-family: APFont;
 }
 
 header {
@@ -85,8 +85,8 @@ div.left {
 }
 
 @font-face {
-  font-family: 'MOBOFont';
-  src: url("../font/MOBO-SemiBold.otf");
+  font-family: 'APFont';
+  src: url("../font/AP.ttf");
 }
 
 .horizontal li {
